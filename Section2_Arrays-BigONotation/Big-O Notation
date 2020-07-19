@@ -5,4 +5,17 @@ Comparing algorithms:
         - Time: the number of steps involved
         - Memory: amount of storage required (these days it is not a big issue)
     - When comparing algorithms we look at each's worst case
-        - Looking at best cases is not helpful since they rarely happen  
+        - Looking at best cases is not helpful since they rarely happen
+
+
+BIG-O NOTATION
+    - Is a way of describing the scalability of an algorithm
+    - Written: O(par). When using it, we are not concerned with the math
+        - If the algorithm is: (2n + n), then we write O(n) meaning that O is affected by the number
+
+    - The BIG-O  (Explains how an algorithm degrades from fewest to most steps)
+    O(1) = Constant
+    O(logn) = Logarithmic
+    O(n) = Linear
+    O(nlogn) = n log-star n
+    O(n^2) = Quadratic

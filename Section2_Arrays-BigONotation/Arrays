@@ -1,0 +1,28 @@
+ARRAYS
+ - Stored in a contiguous block in memory
+ - Arrays in java are not dynamic since the jvm allocates a place (of fixed size) for them in memory when we create them
+ - Every item in a slot of an array occupies the same amount of space in memory
+ - Arrays are effective since they allow for random access
+    - If we know the index of a value in an array, the time to retrieve the element will be the same, no matter where it is in the array
+
+    Retrieve an Element from an array when we know the index of the inquired value
+
+    1) Multiply the size of the element by its index
+    2) Get the start address of the array
+    3) Add the start address to the result of the multiplication
+
+        Address of array[0] = 12
+        Address of array[1] = 12 + (1 + 4) = 16
+        Address of array[2] = 12 + (2 + 4) = 29
+        Address of array[3] = 12 + (3 + 4) = 24
+        Address of array[4] = 12 + (4 + 4) = 28
+        Address of array[5] = 12 + (5 + 4) = 32
+        Address of array[6] = 12 + (6 + 4) = 36
+
+        This is possible because an array is one contiguous block of memory
+        CONSTANT TIME COMPLEXITY O(1)
+            -This shows that the number of steps of getting an object (regardless of it's size) requires the same amount of steps
+
+    Retrieve an Element from an array when we don't know the index of the inquired value
+        - This requires us to loop through it and check if each slot contains the value we are looking for
+        - In this case the TIME COMPLEXITY is O(n) - LINEAR, which means that the size of the array matters
