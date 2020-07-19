@@ -1,0 +1,6 @@
+ALGORITHMS
+
+- Algorithm - Finite number of instructions that is intended to solve a problem
+- Algorithm != Implementation: Algorithm explains the steps that have to be performed, an implementation is the code you write to perform those steps
+    - There can be many different implementation of the same algorithm
+        - If the first step to make a tea is to boil the water, then the implementation can be to boil it using a: sauce pan, kettle on a stove or over a camp fire

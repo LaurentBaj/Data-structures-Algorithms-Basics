@@ -13,11 +13,13 @@ public class BubbleSort {
             }
         }
 
+        //output
         for (int i = 0; i < intArray.length; i++) {
             System.out.println(intArray[i]);
         }
     }
 
+    // Swapping method
     public static void swap(int[] array, int i, int j) {
         if (i == j) {
             return;

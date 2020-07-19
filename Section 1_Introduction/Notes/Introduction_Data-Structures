@@ -1,0 +1,9 @@
+DATA STRUCTURES
+
+-Organizes and stores data
+    - Many different kinds of data structures
+        - Arrays stores data sequentially in slots(indexes)
+        - Tree: Hierarchical/abstract
+            - Parent- and child elements
+        - Advantages/Disadvantages: that is why we have different data structures
+            - Arrays are great for random access if we know the index of the inquired element, not so great if we don't know the index since we then have to search the dataset
