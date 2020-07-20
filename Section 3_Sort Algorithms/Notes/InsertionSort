@@ -1,0 +1,4 @@
+INSERT SORT
+
+- O(n^2) QUADRATIC TIME COMPLEXITY: It will take 100 steps to sort 10 items, it will take 1 000 000 steps to sort 1000 items - Degrades quickly
+- Stable algorithm
