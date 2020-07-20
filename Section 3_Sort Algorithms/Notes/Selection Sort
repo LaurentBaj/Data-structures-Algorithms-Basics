@@ -1,0 +1,7 @@
+SELECTION SORT
+
+- Works similarly to Bubble sort
+- Each traversal we are selection the highest value and moving it to the sorted partition
+- O(n^2) QUADRATIC TIME COMPLEXITY: It will take 100 steps to sort 10 items, it will take 1 000 000 steps to sort 1000 items - Degrades quickly
+- Does not require as much swapping as bubble sort - average case it performs better than bubble sort
+- Unstable algorithm

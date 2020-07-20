@@ -32,7 +32,7 @@ BUBBLE SORT - Sorting an array
   This is why the condition:
   (int lastUnsortedIndex = intArray.length -1;) we can spot that the array size is subtracted by one.
 
-- O(n^2) QUADRATIC TIME COMPLEXITY: It will take 100 steps to sort 10 items, it will take 1 000 000 steps to sort 1000 items - Degrades quickly
+- O(n^2) QUADRATIC TIME COMPLEXITY
 
 
 
