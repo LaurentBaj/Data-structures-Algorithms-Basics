@@ -1,0 +1,6 @@
+When sorting an array where we have more than on of the same value then it matters where they end up after they are sorted
+If the duplicate values end up swapping sides, this can be consequential
+
+Unstable Algorithm - Algorithms where duplicate values may swap sides
+
+Stable Algorithm - The opposite. Bubble sort makes sure that this does not happen since it only swaps values that are either higher or lower than array[i]
