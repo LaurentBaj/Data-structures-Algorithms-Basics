@@ -1,4 +1,21 @@
 INSERT SORT
 
+- Unlike Selection and Bubble, this algorithm sorts the array from left to right
 - O(n^2) QUADRATIC TIME COMPLEXITY: It will take 100 steps to sort 10 items, it will take 1 000 000 steps to sort 1000 items - Degrades quickly
+    - The inner loop takes care of switching the values from left to right (starting at index:  1 since we array.length = 1 = sorted or gets sorted)
+      while the outer loop iterates array.length amount of times so that each element in the array is sorted
+
+      for (int firstUnsortedIndex = 1; firstUnsortedIndex < intArray.length; firstUnsortedIndex++) {
+                int newElement = intArray[firstUnsortedIndex];
+
+                int i;
+
+                for (i = firstUnsortedIndex; i > 0 && intArray[i -1] > newElement; i--) {
+                    intArray[i] = intArray[i - 1];
+
+                }
+
+                intArray[i] = newElement;
+            }
+
 - Stable algorithm

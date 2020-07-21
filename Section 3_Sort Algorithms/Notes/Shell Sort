@@ -1,0 +1,11 @@
+SHELL SORT
+
+- In-Place Algorithm
+- Time Complexity:
+- Variation of Insertion Sort which is more effective
+- Shell starts with comparing slots that are farther apart from each other, wider gap than insertion (1), and as the process progresses then the gap decreases.
+  This reduces the amount of switches until the gap-value is 1, which means that the last value will perform an insertion sort
+
+- Time Complexity: depends on the gap. Could be linear, but it could also be quadratic
+- Does not require as many shifts
+- Unstable algorithm
