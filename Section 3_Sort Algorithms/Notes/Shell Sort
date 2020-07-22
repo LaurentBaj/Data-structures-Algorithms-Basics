@@ -6,6 +6,6 @@ SHELL SORT
 - Shell starts with comparing slots that are farther apart from each other, wider gap than insertion (1), and as the process progresses then the gap decreases.
   This reduces the amount of switches until the gap-value is 1, which means that the last value will perform an insertion sort
 
-- Time Complexity: depends on the gap. Could be linear, but it could also be quadratic
+- Time Complexity: depends on the gap. Could be linear, but it could also be quadratic. If the sequence is almost sorted then it runs in a linear fashion
 - Does not require as many shifts
 - Unstable algorithm
