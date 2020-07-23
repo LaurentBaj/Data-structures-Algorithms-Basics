@@ -1,0 +1,21 @@
+RECURSION
+
+- Methods that call them self
+- Breaks the problem down to smaller pieces
+- Must have a condition that leads to the method no longer making another method call on itself - BASE CASE
+- FACTORIALS: 5! ==  5 * 4 * 3 * 2 * 1 == 5 * 4!
+- Pros and Cons:
+    -  Typically no calculations are done until the base case is reached. So for very large problems I may
+       run out of memory since I'll have millions of open function calls. In those cases iteration works better
+    - In many languages iterative solutions are way faster
+    - In some cases, extremely fast and easy to code. Practical for tree traversals and binary search
+
+     public static int recursiveFactorial(int num) {
+
+            if (num == 0) {
+                return 1;
+            }
+
+            return num * recursiveFactorial(num -1 );
+
+      }
