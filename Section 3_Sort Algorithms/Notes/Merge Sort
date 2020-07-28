@@ -1,0 +1,35 @@
+MERGE SORT
+
+- NOT an in-place algorithm
+- O(nlogn) - base 2. We're repeatedly dividing the array in half during the splitting phase
+- Stable algorithm
+
+
+- Dive and conquer algorithm: Involves splitting the array that we wish to sort into smaller arrays
+- Recursive Algorithm (Most often)
+- Two phases:
+    1) Splitting: preparation to make the sorting phase faster
+        - Logical: We don't create new array instances
+
+        SPLITTING PHASE
+
+        - Start with an unsorted array
+        - Divide the array into two arrays, which are unsorted.
+          The first array is the left array, and the second array
+          is the right array.
+        - Split the left and right arrays into two arrays each: left and right sub-arrays
+        - Keep splitting until all the arrays have only one
+          element each - these arrays are sorted
+
+
+    2) Merging: Where the sorting takes place
+
+        MERGING PHASE (In the case of an array with four elements)
+
+            - Merge every left/right pair of sibling arrays into a
+              sorted array
+            - After the first merge, we'll have a bunch of 2-element sorted arrays
+            - Then merge those sorted arrays to end up with a bunch of 4-element
+            - The array is then sorted
+            - Not in-place. Uses temporary arrays
+
